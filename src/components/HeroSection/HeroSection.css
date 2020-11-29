@@ -1,0 +1,28 @@
+.hero {
+  background-image: url("../../images/herobg.jpg");
+}
+.herosection {
+  height: 100vh;
+  position: relative;
+}
+.herosection_card {
+  position: absolute;
+  top: -50px;
+  left: 35%;
+
+  margin-left: -100px;
+  /* height: 100px; */
+  width: 45rem;
+}
+.color-yellow {
+  color: #ffb300;
+}
+.color-white {
+  color: #ffffff;
+}
+.bg-yellow {
+  background-color: #ffb300;
+}
+.bg-white {
+  color: #ffffff;
+}
