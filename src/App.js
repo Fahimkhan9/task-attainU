@@ -8,6 +8,7 @@ import WhoIsItFor from "./components/WhoIsItFor/WhoIsItFor";
 import Help from "./components/Help/Help";
 import CourseHighlight from "./components/CourseHgihlight/CourseHighlight";
 import StudentProjects from "./components/StudentProjects/StudentProjects";
+import PaymentOptions from "./components/PaymentOptions/PaymentOptions";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Help />
       <CourseHighlight />
       <StudentProjects />
+      <PaymentOptions />
     </div>
   );
 };
