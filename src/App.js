@@ -11,6 +11,7 @@ import StudentProjects from "./components/StudentProjects/StudentProjects";
 import PaymentOptions from "./components/PaymentOptions/PaymentOptions";
 import LookingFor from "./components/LookingFor/LookingFor";
 import InThePress from "./components/InThePress/InThePress";
+import GetStartedForm from "./components/GetStartedForm/GetStartedForm";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <PaymentOptions />
       <LookingFor />
       <InThePress />
+      <GetStartedForm />
     </div>
   );
 };
