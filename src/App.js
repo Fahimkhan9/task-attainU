@@ -10,6 +10,7 @@ import CourseHighlight from "./components/CourseHgihlight/CourseHighlight";
 import StudentProjects from "./components/StudentProjects/StudentProjects";
 import PaymentOptions from "./components/PaymentOptions/PaymentOptions";
 import LookingFor from "./components/LookingFor/LookingFor";
+import InThePress from "./components/InThePress/InThePress";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <StudentProjects />
       <PaymentOptions />
       <LookingFor />
+      <InThePress />
     </div>
   );
 };
