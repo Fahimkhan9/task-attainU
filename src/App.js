@@ -7,6 +7,7 @@ import Batch from "./components/Batch/Batch";
 import WhoIsItFor from "./components/WhoIsItFor/WhoIsItFor";
 import Help from "./components/Help/Help";
 import CourseHighlight from "./components/CourseHgihlight/CourseHighlight";
+import StudentProjects from "./components/StudentProjects/StudentProjects";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <WhoIsItFor />
       <Help />
       <CourseHighlight />
+      <StudentProjects />
     </div>
   );
 };
