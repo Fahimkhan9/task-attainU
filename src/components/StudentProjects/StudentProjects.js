@@ -38,10 +38,11 @@ const StudentProjects = () => {
     setEmbedVideoLink(link);
   };
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
+            <p>Student Projects</p>
             <ListGroup>
               {projectsdata.map((projectsdata) => (
                 <StudentProjectsCard

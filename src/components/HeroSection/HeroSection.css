@@ -9,11 +9,10 @@
   position: absolute;
   top: -50px;
   left: 35%;
-
   margin-left: -100px;
-  /* height: 100px; */
   width: 45rem;
 }
+
 .color-yellow {
   color: #ffb300;
 }

@@ -26,7 +26,7 @@ const inthepressdata = [
 
 const InThePress = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <h4 className="text-center">In the Press</h4>
         <div className="row">

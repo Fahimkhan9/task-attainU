@@ -4,15 +4,19 @@ import Navbar from "react-bootstrap/Navbar";
 import "./NavigationBar.css";
 const NavigationBar = () => {
   return (
-    <Navbar className="navigationbar" expand="lg">
-      <Navbar.Brand href="#home" className="ml-5">
+    <Navbar className="navigationbar " expand="lg">
+      <Navbar.Brand href="#home" className="text-white ml-5  ">
         AttainU
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto mr-5">
           {/* course dropdown */}
-          <NavDropdown title="Course" id="basic-nav-dropdown">
+          <NavDropdown
+            title="Course"
+            className="text-white"
+            id="basic-nav-dropdown"
+          >
             <NavDropdown.Item href="#action/3.1">
               Course Details
             </NavDropdown.Item>
@@ -37,7 +41,11 @@ const NavigationBar = () => {
             </NavDropdown.Item>
           </NavDropdown>
           {/* hire dropdown */}
-          <NavDropdown title="Hire" id="basic-nav-dropdown">
+          <NavDropdown
+            title="Hire"
+            className="text-white"
+            id="basic-nav-dropdown"
+          >
             <NavDropdown.Item href="#action/3.1">
               Hire from AttainU
             </NavDropdown.Item>

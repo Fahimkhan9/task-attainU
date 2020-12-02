@@ -39,7 +39,7 @@ const paymentoptionsdescription = [
 
 const PaymentOptions = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <h3 className="text-center">Fee Payment Options</h3>
         <hr />

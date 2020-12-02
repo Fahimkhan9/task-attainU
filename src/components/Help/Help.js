@@ -17,7 +17,7 @@ const helpdata = [
 
 const Help = () => {
   return (
-    <div className="help">
+    <div className="help pt-5">
       <div className="container">
         <h2 className="text-center">How does AttainU Help?</h2>
         <hr />

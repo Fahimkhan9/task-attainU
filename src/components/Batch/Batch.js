@@ -24,7 +24,7 @@ const batchdata = [
 
 const Batch = () => {
   return (
-    <div className="batch">
+    <div className="batch pt-5">
       <div className="container">
         <h4 className="w-100 bg-warning text-white text-center">
           Next Batch: 22nd December

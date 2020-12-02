@@ -34,7 +34,7 @@ Tests`,
 
 const CourseHighlight = () => {
   return (
-    <div className="CourseHighlight">
+    <div className="CourseHighlight pt-5">
       <div className="container">
         <h4>Course Highlights</h4>
         <hr />

@@ -18,7 +18,7 @@ const WhoIsItFordata = [
 
 const WhoIsItFor = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <div className="row d-flex align-items-center">
           <div className="col-md-6">

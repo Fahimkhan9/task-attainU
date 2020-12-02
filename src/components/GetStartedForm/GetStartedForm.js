@@ -2,7 +2,7 @@ import React from "react";
 import "./GetStartedForm.css";
 const GetStartedForm = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <div className="row">
           <div className="col-md-4">

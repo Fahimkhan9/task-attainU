@@ -26,7 +26,7 @@ const whatwearelookingfordata = [
 
 const LookingFor = () => {
   return (
-    <div>
+    <div className="pt-5">
       <div className="container">
         <h5 className="text-center">What We Are Looking For</h5>
         <div className="row">
