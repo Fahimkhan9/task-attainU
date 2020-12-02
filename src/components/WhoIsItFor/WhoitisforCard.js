@@ -4,7 +4,7 @@ const WhoitisforCard = (props) => {
   const { title } = props.WhoIsItFordata;
   return (
     <div className="col-md-6  bg-white text-dark">
-      <Card className="m-2" style={{ width: "18rem" }}>
+      <Card className="m-2">
         <Card.Body>
           <Card.Title>
             <h5>{title}</h5>

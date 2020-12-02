@@ -16,7 +16,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="">
       <div className="hero">
         <NavigationBar />
         <HeroSection />

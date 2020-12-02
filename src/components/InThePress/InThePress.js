@@ -26,9 +26,9 @@ const inthepressdata = [
 
 const InThePress = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-5 ">
       <div className="container">
-        <h4 className="text-center">In the Press</h4>
+        <h4 className="text-center pb-3">In the Press</h4>
         <div className="row">
           {inthepressdata.map((inthepressdata) => (
             <InThePressCard inthepressdata={inthepressdata} />

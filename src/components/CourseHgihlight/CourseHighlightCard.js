@@ -3,8 +3,8 @@ import Card from "react-bootstrap/Card";
 const CourseHighlightCard = (props) => {
   const { number, description } = props.CourseHighlightdata;
   return (
-    <div className="CourseHighlightCard col-md-3">
-      <Card style={{ width: "18rem" }}>
+    <div className="CourseHighlightCard col-md-3 ">
+      <Card className="border-0 text-center">
         <Card.Body>
           <Card.Title>{number}</Card.Title>
 

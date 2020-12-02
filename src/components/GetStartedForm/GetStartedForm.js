@@ -2,7 +2,7 @@ import React from "react";
 import "./GetStartedForm.css";
 const GetStartedForm = () => {
   return (
-    <div className="pt-5 w-100">
+    <div className="pt-5 ">
       <div className="container">
         <div className="flex-card bg-warning p-5 ">
           <h4 className="mr-5 mb-2">Ready to get started?</h4>

@@ -1,8 +1,9 @@
 .hero {
-  background-image: url("../../images/herobg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/herobg.jpg");
+  background-size: 100%;
 }
 .herosection {
-  height: 100vh;
   position: relative;
 }
 .herosection_card {
@@ -10,7 +11,7 @@
   top: -50px;
   left: 35%;
   margin-left: -100px;
-  width: 45rem;
+  width: 50%;
 }
 
 .color-yellow {
@@ -24,4 +25,9 @@
 }
 .bg-white {
   color: #ffffff;
+}
+@media (max-width: 756px) {
+  .herosection_card {
+    width: 80%;
+  }
 }

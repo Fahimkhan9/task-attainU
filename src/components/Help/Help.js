@@ -21,17 +21,17 @@ const Help = () => {
       <div className="container">
         <h2 className="text-center">How does AttainU Help?</h2>
         <hr />
-        <p>
+        <p className="text-center">
           With AttainU you can completely re-write your career. No prior coding
           knowledge needed. Only willingness to put in efforts is required.
           Learn in-depth Software Development besides interview preparation. We
           prioritize on teaching excellence above all else.
         </p>
-      </div>
-      <div className="row mx-auto">
-        {helpdata.map((helpdata) => (
-          <HelpCard helpdata={helpdata} />
-        ))}
+        <div className="row">
+          {helpdata.map((helpdata) => (
+            <HelpCard helpdata={helpdata} />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -36,7 +36,7 @@ const CourseHighlight = () => {
   return (
     <div className="CourseHighlight pt-5">
       <div className="container">
-        <h4>Course Highlights</h4>
+        <h4 className="text-center">Course Highlights</h4>
         <hr />
         <div className="row">
           {CourseHighlightdata.map((CourseHighlightdata) => (
