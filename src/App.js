@@ -12,6 +12,7 @@ import PaymentOptions from "./components/PaymentOptions/PaymentOptions";
 import LookingFor from "./components/LookingFor/LookingFor";
 import InThePress from "./components/InThePress/InThePress";
 import GetStartedForm from "./components/GetStartedForm/GetStartedForm";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <LookingFor />
       <InThePress />
       <GetStartedForm />
+      <Footer />
     </div>
   );
 };
