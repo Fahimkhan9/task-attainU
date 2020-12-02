@@ -7,6 +7,7 @@ const StudentProjectsCard = (props) => {
   return (
     <ListGroup.Item
       style={{ cursor: "pointer" }}
+      className="my-2"
       onClick={() => changeembedvideolink(videolink)}
     >
       {title}

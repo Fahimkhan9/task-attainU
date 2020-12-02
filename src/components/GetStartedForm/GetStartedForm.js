@@ -2,19 +2,13 @@ import React from "react";
 import "./GetStartedForm.css";
 const GetStartedForm = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-5 w-100">
       <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <h4>Ready to get started?</h4>
-          </div>
-          <div className="col-md-4 flex-input">
-            <input type="text" />
-            <input type="text" />
-          </div>
-          <div className="col-md-4">
-            <button className="btn btn-dark">Get Started</button>
-          </div>
+        <div className="flex-card bg-warning p-5 ">
+          <h4 className="mr-5 mb-2">Ready to get started?</h4>
+          <input type="text" placeholder="Email" className="mr-2 mb-2" />
+          <input type="text" placeholder="Phone" className="mb-2" />
+          <button className="btn btn-dark mx-3 mb-2">Get Started</button>
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "./NavigationBar.css";
 const NavigationBar = () => {
   return (
-    <Navbar className="navigationbar " expand="lg">
+    <Navbar className="navigationbar" expand="lg">
       <Navbar.Brand href="#home" className="text-white ml-5  ">
         AttainU
       </Navbar.Brand>

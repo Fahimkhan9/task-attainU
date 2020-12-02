@@ -26,7 +26,7 @@ const whatwearelookingfordata = [
 
 const LookingFor = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-5 w-100">
       <div className="container">
         <h5 className="text-center">What We Are Looking For</h5>
         <div className="row">
@@ -34,7 +34,7 @@ const LookingFor = () => {
             <LookingForCard whatwearelookingfordata={whatwearelookingfordata} />
           ))}
         </div>
-        <button className="btn btn-warning text-white">Get started</button>
+        <button className="btn btn-warning">Get started</button>
       </div>
     </div>
   );

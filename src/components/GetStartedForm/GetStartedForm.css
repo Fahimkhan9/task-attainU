@@ -1,9 +1,13 @@
-.flex-input {
+.flex-card {
   display: flex;
+  justify-content: center;
+  min-width: 100vh;
 }
 @media (max-width: 756px) {
-  .flex-input {
+  .flex-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    min-width: 100vh;
   }
 }

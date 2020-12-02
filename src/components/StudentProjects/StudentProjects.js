@@ -40,10 +40,12 @@ const StudentProjects = () => {
   return (
     <div className="pt-5">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex align-items-center">
           <div className="col-md-6">
-            <p>Student Projects</p>
             <ListGroup>
+              <ListGroup.Item className="mx-auto border-0">
+                <h4> Student Projects</h4>
+              </ListGroup.Item>
               {projectsdata.map((projectsdata) => (
                 <StudentProjectsCard
                   projectsdata={projectsdata}

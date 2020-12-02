@@ -26,6 +26,7 @@ const App = () => {
       <Batch />
       <WhoIsItFor />
       <Help />
+
       <CourseHighlight />
       <StudentProjects />
       <PaymentOptions />

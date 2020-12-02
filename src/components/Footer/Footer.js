@@ -4,8 +4,9 @@ const Footer = () => {
   return (
     <div className="pt-5">
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-center">
           <div className="col-md-4">
+            <h6 className="pb-3">AttainU</h6>
             <p>
               AttainU is a scalable college alternative, focusing on
               high-quality, industry-aligned learning outcomes, targeted towards
@@ -17,12 +18,12 @@ const Footer = () => {
           <div className="col-md-4">
             <p>Important Links</p>
             <hr />
-            <ul>
-              <li>Blog</li>
-              <li>Forum</li>
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Sitemap</li>
+            <ul style={{ listStyle: "none" }}>
+              <li className="pb-2">Blog</li>
+              <li className="pb-2">Forum</li>
+              <li className="pb-2">Privacy Policy</li>
+              <li className="pb-2">Terms & Conditions</li>
+              <li className="pb-2">Sitemap</li>
             </ul>
           </div>
           <div className="col-md-4">
@@ -45,6 +46,11 @@ const Footer = () => {
               </address>
             </div>
           </div>
+        </div>
+        <div className="row">
+          <p className="mx-auto text-warning">
+            Copyright © 2020, LeetU Education Pvt. Ltd.
+          </p>
         </div>
       </div>
     </div>
